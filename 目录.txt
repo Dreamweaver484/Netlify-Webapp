@@ -1,0 +1,151 @@
+blog/
+|
++- .vscode/
+|  |
+|  +- launch.json           <-- VSCode 配置文件
+|
++- package.json             <-- 项目描述文件
+|
++- node_modules/            <-- npm安装的所有依赖包
+|
++- public/                  <-- 静态资源
+   |
+   +-uploads/
+   |
+   +-admin/
+        |
+        +- images/          <--
+        |
+        +- css/             <--
+            |
+            +- base.css/    <--
+        |
+        +- js/              <--
+            |
+            +- common.js/   <--
+        |
+        +- lib/             <--
+            |
+            +- bookstrap/   <--
+            |
+            +- ckeditor5/   <--
+            |
+            +- echarts/     <--
+            |
+            +- jquery/      <--
+    |
+   +-home/
+        |
+        +- images/          <--
+        |
+        +- css/             <--
+            |
+            +- base.css/    <--
+            |
+            +- article.css/ <--
+            |
+            +- index.css/   <--
+        |
+        +- js/              <--
+        |
+        +- lib/             <--
+            |
+            +- sweetalert/  <--
+        |
+        +- article.html     <--
+        |
+        +- default.html     <--
+    |
+    +- article.html         <--
+    |
+    +- article-edit.html    <--
+    |
+    +- user.html            <--
+    |
+    +- user-edit.html       <--
+    |
+    +- login.html           <--
+|
++- route/                   <-- 路由
+    |
+    +-admin/
+        |
+        +- login.js         <--
+        |
+        +- loginPage.js     <--
+        |
+        +- layout.js        <--
+        |
+        +- user-add.js      <--
+        |
+        +- user-edit.js     <--
+        |
+        +- user-edit-fn.js  <--
+        |
+        +- userPage.js      <--
+        |
+        +- article.js       <--
+        |
+        +- article-add.js   <--
+        |
+        +- article-edit.js  <--
+    |
+    +-home/
+        |
+        +- article.js       <--
+        |
+        +- commen.js        <--
+        |
+        +- index.js         <--
+    |
+    +- admin.js             <--
+    |
+    +- home.js              <--
+|
++- model/                   <--
+    |
+    +- article.js           <--
+    |
+    +- comment.js           <--
+    |
+    +- connect.js           <--
+    |
+    +- user.js              <--
+|
++- middleware/              <--
+    |
+    +- loginGuard.js        <--
+|
++- views/                   <-- 模板
+   |
+   +- admin/                <--
+        |
+        +- common/          <--
+            |
+            +- xxx.art      <--
+        |
+        +- xxx.art          <--
+   |
+   +- home/                 <--
+        |
+        +- common/          <--
+            |
+            +- xxx.art      <--
+        |
+        +- xxx.art          <--
+|
++- config/                  <--
+   |
+   +- custom-environment.json   <--
+   |
+   +- default.json          <--
+   |
+   +- development.json      <--
+   |
+   +- production.json       <--
+|
++- app.js                   <-- 主js
+|
++- hash.js                  <-- 主js
+|
++- joi.js                   <-- 主js
